@@ -1,0 +1,50 @@
+$black: #000;
+$dark: rgba(0, 0, 0, 0.66);
+
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  color: $dark;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+  color: #000;
+}
+
+@keyframes colorchange {
+  0% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  70% {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.01);
+  }
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  70% {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.01);
+  }
+}
