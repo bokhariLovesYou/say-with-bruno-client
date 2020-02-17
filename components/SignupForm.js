@@ -37,17 +37,13 @@ export class SignupForm extends Component {
               <Input type="text" name="email" placeholder="Email Address" />
             </Field>
             <Field>
-              <Input
-                type="password"
-                name="password"
-                placeholder="Confirm Password"
-              />
+              <Input type="password" name="password" placeholder="Password" />
             </Field>
             <Field>
               <Input
                 type="password"
                 name="confirm-password"
-                placeholder="Password"
+                placeholder="Confirm Password"
               />
             </Field>
             <Field noBottomMargin>
